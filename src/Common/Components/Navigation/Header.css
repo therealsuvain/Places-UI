@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  background-color: #c6c8ca;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  
+}
+
+.header h1 {
+  position: relative;
+  flex: 2;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 2200px;
+}
+
+.header .header-children {
+  margin: 0;
+}
