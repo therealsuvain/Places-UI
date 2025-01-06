@@ -76,8 +76,8 @@
   }
 }
 @keyframes ripple-animation {
-    to {
-      transform: scale(4);
-      opacity: 0;
-    }
+  to {
+    transform: scale(4);
+    opacity: 0;
   }
+}
