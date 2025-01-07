@@ -1,9 +1,12 @@
 .place {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
   border-radius: 8px;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .place__title {
@@ -13,12 +16,18 @@
 }
 
 .place__image {
+  flex: 1;
+  position: relative;
   width: 100%;
   height: auto;
   margin-bottom: 8px;
 }
 
 .place__map {
-  font-size: 16px;
+  position: absolute;
+  top: 100px;
+  left: 75%;
+  flex: 1;
+  z-index: 10;
   margin-bottom: 8px;
 }

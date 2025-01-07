@@ -6,7 +6,7 @@ import "./MainNav.css";
 import Header from "./Header";
 import NavLinks from "./NavLinks";
 import SideD from "./SideDrawer";
-import BackDrop from "../BackDrop";
+import BackDrop from "../UI/BackDrop";
 
 const MainNav = () => {
   const [isSideDrawerOpen, setIsSideDrawerOpen] = useState(false);

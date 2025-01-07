@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./UserItem.css";
-import RippleCard from "../../Common/Components/RippleCard";
+import RippleCard from "../../Common/Components/UI/RippleCard";
 import { Link } from "react-router-dom";
 
 const UserItem = (props) => {
