@@ -19,10 +19,10 @@ const NavLinks = () => {
         </NavLink>
       </motion.li>
       <motion.li variants={variants} whileHover="hover">
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/places/new">Place</NavLink>
       </motion.li>
       <motion.li variants={variants} whileHover="hover">
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/about">About</NavLink>
       </motion.li>
     </motion.ul>
   );

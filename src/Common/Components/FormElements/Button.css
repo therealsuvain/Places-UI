@@ -1,0 +1,48 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #357ab8;
+  transform: translateY(-2px);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button--submit {
+  background-color: #28a745;
+}
+
+.button--submit:hover {
+  background-color: #218838;
+}
+
+.button--link {
+  background-color: #17a2b8;
+}
+
+.button--link:hover {
+  background-color: #138496;
+}
+
+.button--friend-request {
+  background-color: #ffc107;
+}
+
+.button--friend-request:hover {
+  background-color: #e0a800;
+}

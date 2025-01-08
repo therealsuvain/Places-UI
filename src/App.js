@@ -11,7 +11,8 @@ import UserList from "./Users/Pages/UserList";
 import MainNav from "./Common/Components/Navigation/MainNav";
 import About from "./Common/Pages/About";
 import UserProfile from "./Users/Pages/UserProfile";
-import { DUMMY_PLACES, DUMMY_USERS } from "./Common/DUMMY_DATA";
+import NewPlace from "./Places/Pages/NewPlace";
+import { DUMMY_PLACES, DUMMY_USERS } from "./Common/Util/DUMMY_DATA";
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         </Route>
         <Route path="/:id/places" exact>
           <UserProfile users={DUMMY_USERS} places={DUMMY_PLACES}></UserProfile>
+        </Route>
+        <Route path="/places/new" exact>
+          <NewPlace></NewPlace>
         </Route>
         <Route path="/about" exact>
           <About></About>
