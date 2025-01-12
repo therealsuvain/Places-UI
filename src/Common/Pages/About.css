@@ -15,9 +15,34 @@
 
 .grid-item {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(211, 211, 211, 0.323);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   width: 400px;
   height: 350px;
+}
+
+.grid-item label {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 20;
+}
+.spinner {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
+.spinner:hover {
+  border-radius: 5%;
+  animation: spin infinite 10s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600deg);
+  }
 }
